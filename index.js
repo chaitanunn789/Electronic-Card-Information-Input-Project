@@ -10,7 +10,7 @@ function getOwnerName() {
     }
 }
 
-document.querySelector(".owner-name-input").addEventListener("keyup", (event) => {
+document.querySelector(".owner-name-input").addEventListener("keydown", (event) => {
     getOwnerName();
 })
 
